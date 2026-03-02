@@ -1,6 +1,6 @@
 # External Merge Sort
 
-Sorts a binary file of **8-byte double-precision floats** in ascending order using the external merge sort algorithm. Includes a Tkinter GUI to visualise each phase of the process.
+Sorts a binary file of **8-byte double-precision floats** in ascending order using the external merge sort algorithm. Includes a Tkinter GUI to visualise each phase of the process. Demo video at this [link](https://drive.google.com/file/d/174XFqDuMT-FjuaaSzj2T-VXhZ3uu9SMd/view?usp=drive_link)
 
 ## Requirements
 
