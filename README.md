@@ -1,6 +1,6 @@
 # External Merge Sort
 
-Sorts a binary file of **8-byte double-precision floats** in ascending order using the external merge sort algorithm. Includes a Tkinter GUI to visualise each phase of the process. Demo video at this [link](https://drive.google.com/file/d/174XFqDuMT-FjuaaSzj2T-VXhZ3uu9SMd/view?usp=drive_link)
+Sorts a binary file in ascending order using the external merge sort algorithm. Includes a Tkinter GUI to visualise each phase of the process. Demo video at this [link](https://drive.google.com/file/d/174XFqDuMT-FjuaaSzj2T-VXhZ3uu9SMd/view?usp=drive_link)
 
 ## Requirements
 
@@ -35,8 +35,3 @@ The GUI will open. Steps:
 |-------|-------------|
 | **Phase 1 – Split** | Reads the file in chunks, sorts each chunk in RAM, writes sorted runs to temporary files. |
 | **Phase 2 – Merge** | Repeatedly merges pairs of sorted runs until a single sorted file remains. |
-
-## File format
-
-Binary file — each element is a **64-bit IEEE 754 double** (little-endian, 8 bytes).  
-Use `generate_data.py` or write your own generator with Python's `struct.pack('d', value)`.
